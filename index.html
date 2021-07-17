@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chattogram Development Authority</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Basic Info Starts -->
+    <fieldset>
+      <legend>Basic Info</legend>
+      <table>
+        <tbody>
+            <tr>
+                <th>
+                    <label for="type">Occupancy Type:</label>
+                </th>
+                <th>:</th>
+                <td>
+                    <select name="type" id="type">
+                        <option value="Option-1">Option-1</option>
+                        <option value="Option-2">Option-2</option>
+                        <option value="Option-3">Option-3</option>
+                        <option value="Option-4">Option-4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="date">তারিখ:</label>
+                </th>
+                <th>:</th>
+                <td>
+                    <input type="date" name="" id="date" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="build">নির্মাণ অনুমোদন নম্বর:</label>
+                </th>
+                <th>:</th>
+                <td>
+                    <input type="text" name="" id="build" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="certificate_no">বসবাস বা ব্যবহার সনদপত্র নম্বর:</label>
+                </th>
+                <th>:</th>
+                <td>
+                    <input type="text" name="" id="certificate_no" />
+                </td>
+            </tr>
+        </tbody>
+      </table>
+    </fieldset>
+    <!-- Basic Info Ends -->
+    <br>
+    <br>
+    <!-- Land and Plot Location Starts -->
+    <fieldset>
+        <legend>জমি / প্লট এর অবস্থান ও পরিমান</legend>
+        <p>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>ক) সিটি কর্পোরেশন/ পৌরসভা/ গ্রাম/ মহল্লা</th>
+                        <th>:</th>
+                        <td>
+                            <select name="location" id="location">
+                                <option value="Option-1">Option-1</option>
+                                <option value="Option-2">Option-2</option>
+                                <option value="Option-3">Option-3</option>
+                                <option value="Option-4">Option-4</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>খ) বি. এস/ আর. এস দাগ নং </th>
+                        <th>:</th>
+                        <td><input type="text" name="serial_no" id="serial_no"></td>
+                    </tr>
+                    <tr>
+                        <th>গ) মৌজা ও থানার নাম </th>
+                        <th>:</th>
+                        <td>
+                            <select name="thana" id="thana">
+                                <option value="Option-1">Option-1</option>
+                                <option value="Option-2">Option-2</option>
+                                <option value="Option-3">Option-3</option>
+                                <option value="Option-4">Option-4</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>ঘ) ব্লক নং </th>
+                        <th>:</th>
+                        <td>
+                            <input type="text" name="block" id="block">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>ঙ) সিট নং </th>
+                        <th>:</th>
+                        <td>
+                            <select name="seat_no" id="seat_no">
+                                <option value="Option-1">Option-1</option>
+                                <option value="Option-2">Option-2</option>
+                                <option value="Option-3">Option-3</option>
+                                <option value="Option-4">Option-4</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>চ) ওয়ার্ড নং</th>
+                        <th>:</th>
+                        <td>
+                            <select name="word_no" id="word_no">
+                                <option value="Option-1">Option-1</option>
+                                <option value="Option-2">Option-2</option>
+                                <option value="Option-3">Option-3</option>
+                                <option value="Option-4">Option-4</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>ছ) সেক্টর নং</th>
+                        <th>:</th>
+                        <td>
+                            <select name="sector_no" id="sector_no">
+                                <option value="Option-1">Option-1</option>
+                                <option value="Option-2">Option-2</option>
+                                <option value="Option-3">Option-3</option>
+                                <option value="Option-4">Option-4</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>জ) রাস্তার নাম</th>
+                        <th>:</th>
+                        <td>
+                            <input type="text" name="road_name" id="road_name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>ঝ) বাহুর মাপ সহ জমি/প্লটের পরিমাণ</th>
+                        <th>:</th>
+                        <td>
+                            <input type="text" name="land_map" id="land_map">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>ঞ) জমি/প্লট এ বিদ্যমান বাড়ি/ কাঠামোর বিবরণ</th>
+                        <th>:</th>
+                        <td>
+                            <input type="text" name="home_structure" id="home_structure">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+    </fieldset>
+    <!-- Land and Plot Location Ends -->
+    <br>
+    <br>
+    <!-- File Input Starts -->
+    <fieldset>
+        <legend>File Input</legend>
+        <p>
+            <label for="attachment-1">Attachment 1</label>
+            <input type="file" name="" id="attachment-1">
+        </p>
+        <p>
+            <label for="attachment-2">Attachment 2</label>
+            <input type="file" name="" id="attachment-1">
+        </p>
+        <p>
+            <label for="attachment-3">Attachment 3</label>
+            <input type="file" name="" id="attachment-1">
+        </p>
+        <p>
+            <label for="attachment-4">Attachment 4</label>
+            <input type="file" name="" id="attachment-1">
+        </p>
+        <p>
+            <label for="attachment-5">Attachment 5</label>
+            <input type="file" name="" id="attachment-1">
+        </p>
+    </fieldset>
+    <!-- File Input Starts -->
+  </body>
+</html>
